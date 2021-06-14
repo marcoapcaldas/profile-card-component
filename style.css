@@ -1,3 +1,6 @@
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+}
 body {
     background-color: hsl(185, 75%, 39%);
     min-height: 100vh;
@@ -25,17 +28,44 @@ body {
 .img-back-ground {
     padding: 0;
     min-width: 100%;
+    height: 130px;
     border-radius: 20px 20px 0 0;
 }
 
 .profile-photo {
     border-radius: 50%;
-    max-width: 40%;
-    border: 10px solid white;
+    max-width: 50%;
+    border: 6px solid white;
     position: relative;
-    top: -61px;
+    top: -55px;
     padding: 0;
     margin: 0;
+}
+
+.name {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.age {
+    font-weight: 400;
+}
+
+.stats {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-items: right;
+}
+ul {
+    
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
 }
 
 .attribution {
